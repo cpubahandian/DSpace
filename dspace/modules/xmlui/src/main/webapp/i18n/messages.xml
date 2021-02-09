@@ -2215,7 +2215,7 @@
 	<message key="xmlui.dri2xhtml.METS-1.0.item-isbn">ISBN</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-issn">ISSN</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-ddc">Shelf Location</message>
-	<message key="xmlui.dri2xhtml.METS-1.0.item-advisor">Thesis Adviser</message>
+	<message key="xmlui.dri2xhtml.METS-1.0.item-adviser">Thesis Adviser</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-chair">Defense Panel Chair</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-member">Defense Panel Member</message>
 	<message key="xmlui.dri2xhtml.METS-1.0.item-department">Department</message>

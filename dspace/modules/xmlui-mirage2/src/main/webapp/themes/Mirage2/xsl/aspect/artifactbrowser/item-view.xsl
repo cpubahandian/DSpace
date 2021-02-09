@@ -118,7 +118,7 @@
                     </div>
                     <xsl:call-template name="itemSummaryView-DIM-date"/>
                     <xsl:call-template name="itemSummaryView-DIM-authors"/>
-                    <xsl:call-template name="itemSummaryView-DIM-advisors"/>
+                    <xsl:call-template name="itemSummaryView-DIM-advisers"/>
                     <xsl:call-template name="itemSummaryView-DIM-chair"/>
                     <xsl:call-template name="itemSummaryView-DIM-member"/>
                     <xsl:if test="$ds_item_view_toggle_url != ''">
@@ -349,13 +349,13 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template name="itemSummaryView-DIM-advisors">
-        <xsl:if test="dim:field[@element='contributor'][@qualifier='advisor' and descendant::text()]">
+    <xsl:template name="itemSummaryView-DIM-advisers">
+        <xsl:if test="dim:field[@element='contributor'][@qualifier='adviser' and descendant::text()]">
             <div class="simple-item-view-authors item-page-field-wrapper table">
                 <h5>
-                    <i18n:text>xmlui.dri2xhtml.METS-1.0.item-advisor</i18n:text>
+                    <i18n:text>xmlui.dri2xhtml.METS-1.0.item-adviser</i18n:text>
                 </h5>
-                <xsl:for-each select="dim:field[@element='contributor'][@qualifier='advisor']">
+                <xsl:for-each select="dim:field[@element='contributor'][@qualifier='adviser']">
                     <xsl:call-template name="itemSummaryView-DIM-authors-entry"/>
                 </xsl:for-each>
             </div>
