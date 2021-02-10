@@ -119,6 +119,9 @@
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Subject</message>
     <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Date Issued</message>
     <message key="xmlui.Discovery.AbstractSearch.type_type">Filter by: Type</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_adviser">Filter by: Adviser</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_chair">Filter by: Committee Chair</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_member">Filter by: Committee Member</message>
 
 
     <message key="xmlui.Discovery.AbstractSearch.startswith">Starts with</message>

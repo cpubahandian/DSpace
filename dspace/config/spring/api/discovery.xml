@@ -98,6 +98,9 @@
         <property name="sidebarFacets">
             <list>
                 <ref bean="searchFilterAuthor" />
+                <ref bean="searchFilterAdviser" />
+                <ref bean="searchFilterChair" />
+                <ref bean="searchFilterMember" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterType" />
@@ -111,6 +114,9 @@
             <list>
                 <ref bean="searchFilterTitle" />
                 <ref bean="searchFilterAuthor" />
+                <ref bean="searchFilterAdviser" />
+                <ref bean="searchFilterChair" />
+                <ref bean="searchFilterMember" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterType" />
@@ -234,6 +240,9 @@
         <property name="searchFilters">
             <list>
                 <ref bean="searchFilterTitle" />
+                <ref bean="searchFilterAdviser" />
+                <ref bean="searchFilterChair" />
+                <ref bean="searchFilterMember" />
                 <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
@@ -406,6 +415,42 @@
             <list>
                 <value>dc.contributor.author</value>
                 <value>dc.creator</value>
+            </list>
+        </property>
+        <property name="facetLimit" value="5"/>
+        <property name="sortOrderSidebar" value="COUNT"/>
+        <property name="sortOrderFilterPage" value="COUNT"/>
+    </bean>
+
+    <bean id="searchFilterAdviser" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
+        <property name="indexFieldName" value="adviser"/>
+        <property name="metadataFields">
+            <list>
+                <value>dc.contributor.adviser</value>
+            </list>
+        </property>
+        <property name="facetLimit" value="5"/>
+        <property name="sortOrderSidebar" value="COUNT"/>
+        <property name="sortOrderFilterPage" value="COUNT"/>
+    </bean>
+
+    <bean id="searchFilterChair" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
+        <property name="indexFieldName" value="chair"/>
+        <property name="metadataFields">
+            <list>
+                <value>dc.contributor.chair</value>
+            </list>
+        </property>
+        <property name="facetLimit" value="5"/>
+        <property name="sortOrderSidebar" value="COUNT"/>
+        <property name="sortOrderFilterPage" value="COUNT"/>
+    </bean>
+
+    <bean id="searchFilterMember" class="org.dspace.discovery.configuration.DiscoverySearchFilterFacet">
+        <property name="indexFieldName" value="member"/>
+        <property name="metadataFields">
+            <list>
+                <value>dc.contributor.committeemember</value>
             </list>
         </property>
         <property name="facetLimit" value="5"/>

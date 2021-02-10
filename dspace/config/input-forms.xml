@@ -235,7 +235,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-schema>dc</dc-schema>
          <dc-element>contributor</dc-element>
          <dc-qualifier>chair</dc-qualifier>
-         <repeatable>false</repeatable>
+         <repeatable>true</repeatable>
          <label>Committee chair</label>
          <type-bind>Thesis,Dissertation,Special paper</type-bind>
          <input-type>name</input-type>
