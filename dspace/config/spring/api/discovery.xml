@@ -240,10 +240,10 @@
         <property name="searchFilters">
             <list>
                 <ref bean="searchFilterTitle" />
+                <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterAdviser" />
                 <ref bean="searchFilterChair" />
                 <ref bean="searchFilterMember" />
-                <ref bean="searchFilterAuthor" />
                 <ref bean="searchFilterSubject" />
                 <ref bean="searchFilterIssued" />
                 <ref bean="searchFilterType" />
