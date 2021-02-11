@@ -52,4 +52,20 @@
     <xsl:output indent="yes"/>
 
 
+    <xsl:template
+            match="dri:referenceSet[@id='aspect.artifactbrowser.CommunityBrowser.referenceSet.community-browser']">
+        <div id="sidetree">
+            <div id="sidetreecontrol"><a href="?#" class="ds-button-field btn btn-primary">
+                <xsl:text>Collapse all</xsl:text>
+            </a>&#160;
+                <a href="?#" class="ds-button-field btn btn-primary">
+                    <xsl:text>Expand all</xsl:text>
+                </a>
+            </div>
+            <ul id="tree">
+                <xsl:apply-templates select="*[not(name()='head')]" mode="summaryList"/>
+            </ul>
+        </div>
+    </xsl:template>
+
 </xsl:stylesheet>
