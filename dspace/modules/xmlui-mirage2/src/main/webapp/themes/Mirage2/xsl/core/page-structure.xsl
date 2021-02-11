@@ -930,6 +930,9 @@
              logged_in_greeting="Hi! I'm Bertha, your library virtual assistant. How can we help you?"
              logged_out_greeting="Hi! I'm Bertha, your library virtual assistant. How can we help you?">
         </div>
+        <script type='text/javascript'
+                src='https://platform-api.sharethis.com/js/sharethis.js#property=60252d416d61740011431654&amp;product=inline-share-buttons'
+                async='async'>&#160;</script>
     </xsl:template>
 
     <xsl:template name="addJavascript-google-analytics">
