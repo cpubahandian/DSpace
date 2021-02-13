@@ -452,6 +452,14 @@ it, please enter the types and the actual numbers or codes.</hint>
        <stored-value>issn</stored-value>
      </pair>
      <pair>
+       <displayed-value>ESSN</displayed-value>
+       <stored-value>essn</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>DOI</displayed-value>
+       <stored-value>doi</stored-value>
+     </pair>
+     <pair>
        <displayed-value>Other</displayed-value>
        <stored-value>other</stored-value>
      </pair>
@@ -483,12 +491,24 @@ it, please enter the types and the actual numbers or codes.</hint>
        <stored-value>Article</stored-value>
      </pair>
      <pair>
+       <displayed-value>Podcast</displayed-value>
+       <stored-value>podcast</stored-value>
+     </pair>
+     <pair>
        <displayed-value>Book</displayed-value>
        <stored-value>Book</stored-value>
      </pair>
      <pair>
        <displayed-value>Book chapter</displayed-value>
        <stored-value>Book chapter</stored-value>
+     </pair>
+     <pair>
+           <displayed-value>Conference paper</displayed-value>
+           <stored-value>Conference paper</stored-value>
+     </pair>
+       <pair>
+           <displayed-value>Conference publication</displayed-value>
+           <stored-value>Conference publication</stored-value>
      </pair>
      <pair>
        <displayed-value>Dataset</displayed-value>
@@ -511,12 +531,24 @@ it, please enter the types and the actual numbers or codes.</hint>
        <stored-value>Image, 3-D</stored-value>
      </pair>
      <pair>
+       <displayed-value>Magazine</displayed-value>
+       <stored-value>Magazine</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Magazine article</displayed-value>
+       <stored-value>magazineArticle</stored-value>
+     </pair>
+     <pair>
        <displayed-value>Map</displayed-value>
        <stored-value>Map</stored-value>
      </pair>
      <pair>
        <displayed-value>Musical Score</displayed-value>
        <stored-value>Musical Score</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Newsletter</displayed-value>
+       <stored-value>Newsletter</stored-value>
      </pair>
      <pair>
        <displayed-value>Plan or blueprint</displayed-value>
@@ -587,6 +619,18 @@ it, please enter the types and the actual numbers or codes.</hint>
      <pair>
        <displayed-value>English</displayed-value>
        <stored-value>en</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Filipino</displayed-value>
+       <stored-value>fil</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Hiligaynon</displayed-value>
+       <stored-value>hil</stored-value>
+     </pair>
+     <pair>
+       <displayed-value>Cebuano (Bisaya)</displayed-value>
+       <stored-value>ceb</stored-value>
      </pair>
      <pair>
        <displayed-value>Spanish</displayed-value>
