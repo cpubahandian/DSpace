@@ -198,3 +198,9 @@ display: block;
     display: inline;
     height: 16px;
 }
+
+@media (max-width: 767px) {
+  .navbar .dropdown-menu a {
+    color: #08315C;
+  }
+}
