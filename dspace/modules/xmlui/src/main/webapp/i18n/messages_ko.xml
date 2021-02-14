@@ -1,0 +1,176 @@
+<catalogue xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xml:lang="ko">
+	<message key="xmlui.general.dspace_home">BAHÁNDÌAN 홈</message>
+	<message key="xmlui.general.search">검색</message>
+	<message key="xmlui.general.go">가다</message>
+	<message key="xmlui.general.go_home">BAHÁNDÌAN 홈으로 이동</message>
+
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">BAHÁNDÌAN의 커뮤니티</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">컬렉션을 찾아 볼 커뮤니티를 선택하세요.</message>
+    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">최근에 추가</message>
+    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">더보기</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">검색</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">BAHÁNDÌAN 전체</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">커뮤니티 및 컬렉션</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_title">타이틀</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">저자</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">과목</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">발행 일별</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">제출 날짜까지</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">이 컬렉션</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">이 커뮤니티</message>
+
+	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
+	<message key="xmlui.EPerson.Navigation.my_account">내 계정</message>
+	<message key="xmlui.EPerson.Navigation.profile">프로필</message>
+	<message key="xmlui.EPerson.Navigation.logout">로그 아웃</message>
+	<message key="xmlui.EPerson.Navigation.login">로그인</message>
+	<message key="xmlui.EPerson.Navigation.register">레지스터</message>
+
+	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
+	<message key="xmlui.EPerson.PasswordLogin.title">로그인</message>
+	<message key="xmlui.EPerson.PasswordLogin.trail">로그인</message>
+	<message key="xmlui.EPerson.PasswordLogin.head1">BAHÁNDÌAN에 로그인</message>
+	<message key="xmlui.EPerson.PasswordLogin.email_address">이메일 주소</message>
+	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">제공된 이메일 주소 및 / 또는 비밀번호가 유효하지 않습니다.</message>
+	<message key="xmlui.EPerson.PasswordLogin.password">암호</message>
+	<message key="xmlui.EPerson.PasswordLogin.forgot_link">  비밀번호를 잊어 버렸습니까?</message>
+	<message key="xmlui.EPerson.PasswordLogin.submit">로그인</message>
+	<message key="xmlui.EPerson.PasswordLogin.head2">새로운 사용자 등록</message>
+	<message key="xmlui.EPerson.PasswordLogin.para1">계정을 등록하여 이메일 업데이트 컬렉션을 구독하고 BAHÁNDÌAN에 새 항목을 제출하십시오.</message>
+	<message key="xmlui.EPerson.PasswordLogin.register_link">등록하려면 여기를 클릭하십시오.</message>
+
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">발견하다</message>
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... 더보기</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_author">저자</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_title">표제</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_subject">제목</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_abstract">요약</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_series">시리즈</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_sponsor">스폰서</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_identifier">식별자</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_language">언어 (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_keyword">예어</message>
+
+   <!--  some common other possibilities for Advanced Search Fields -->
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_contributor">기부자</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_creator">창조자</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_description">기술</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_relation">관계</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_mime">Mime 유형</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_other">다른 기여자</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_adviser">고문</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_department">학과</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_chair">국방 패널 의자</message>
+   <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_member">국방 위원</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">저자</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">제목</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">컨텐츠 타입</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">발행일</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">발행일</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type">유형</message>
+    
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_has_content_in_original_bundle">파일 있음</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_true">예</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_false">아니</message>
+
+    <message key="xmlui.dri2xhtml.structural.search">BAHÁNDÌAN 검색</message>
+    <message key="xmlui.dri2xhtml.structural.search-advanced">고급 검색</message>
+    <message key="xmlui.dri2xhtml.structural.search-in-community">이 커뮤니티</message>
+    <message key="xmlui.dri2xhtml.structural.search-in-collection">이 컬렉션</message>
+
+    <message key="xmlui.feed.header">RSS 피드</message>
+
+    <message key="xmlui.dri2xhtml.METS-1.0.license-text">다음 라이센스 파일이이 항목과 연관되어 있습니다.</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.cc-license-text">달리 명시되지 않는 한이 항목의 라이선스는 다음과 같이 설명됩니다.</message>
+
+    <message key="xmlui.dri2xhtml.structural.contact-link">문의하기</message>
+    <message key="xmlui.dri2xhtml.structural.feedback-link">피드백 보내기</message>
+
+    <message key="xmlui.dri2xhtml.METS-1.0.item-preview">시사</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-title">표제</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-author">저자</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-abstract">요약</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-description">기술</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-uri">URI</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-date">데이트</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-publisher">발행자</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-subject">주제</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-citation">추천 인용</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-keyword">키워드</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-type">유형</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-format">물리적 설명</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-isbn">ISBN</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-issn">ISSN</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-ddc">선반 위치</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-adviser">논문 고문</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-chair">국방 패널 의자</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-member">국방 위원</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-department">학과</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-degree">정도</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-share">공유</message>
+
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-head">이 항목의 파일</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-file">파일</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-name">이름</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-size">크기</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-format">체재</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-view">전망</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-description">기술</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-files-viewOpen">전망/<wbr/>Open</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.item-no-files">이 항목과 관련된 파일이 없습니다.</message>
+
+    <message key="xmlui.dri2xhtml.METS-1.0.no-preview">미리보기가 없습니다.</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.no-title">제목 없음</message>
+    <message key="xmlui.dri2xhtml.METS-1.0.no-author">알 수없는 작성자</message>
+
+    <message key="xmlui.dri2xhtml.structural.link_cc">크리에이티브 커먼즈</message>
+    <message key="xmlui.dri2xhtml.structural.link_original_license">원래 라이선스</message>
+
+
+    <!-- For news.xmlui.xml -->
+    <message key="bahandian.news.title"><div class="bold">BAHÁNDÌAN<span class="h4 bahandian-subtitle">Central Philippine University의 공식 기관 저장소</span></div></message>
+    <message key="bahandian.news.content">
+        <p>
+            <b>BAHÁNDÌAN</b>
+            중앙 필리핀 대학의 관리, 보급 및
+            학술 커뮤니티의 학술적 성과를 나타내는 디지털 자료의 보존 및
+            계열사 및 교수진 및 학생.
+        </p>
+        <p>
+            <b>BAHÁNDÌAN</b>
+            Central Philippine University의 출판물에 대한 액세스를 제공하는 대학 저장소이며
+            그 계열사. 액세스는 일반적으로 OAI (Open Archives Initiative) 프로토콜에 따라 제한되지 않습니다.
+            이러한 아카이브를 상호 운용하고 상호 검색 할 수 있도록하는 메타 데이터 수집
+        </p>
+        <p>
+            <b>BAHÁNDÌAN</b>
+            보물 상자의 일 롱고 용어입니다 (Uy-Griño, 2005). 이 기관 저장소는
+            기관의 귀중한 학술 작품. 이 디지털 저장소는 개방형 온라인
+            미래 세대를 위해 이러한 작품을 보존하고 홍보하기 위해 대학의 연구 및 장학금에 대한 액세스
+            학술 커뮤니케이션의 새로운 모델, 그리고 더 높은 가치에 대한 커뮤니티 이해를 심화하는 데 도움이됩니다.
+            교육.
+        </p>
+        <p>
+            <i>Uy-Griño, E. (2005). Diksyonaryo : Hiligaynon-English / English-Hiligaynon. 필리핀 일로 일로 시티 : 중부
+                필리핀 대학교
+            </i>
+        </p>
+        <p>이 저장소는 <a href="https://library.cpu.edu.ph/">Henry Luce III 도서관</a> 대학의.</p>
+    </message>
+
+    <!-- Disclaimer Page -->
+    <message key="xmlui.Bahandian.DisclaimerPage.title">부인 성명</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.trail">부인 성명</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.head">부인 성명</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.para">
+        <p><b>BAHÁNDÌAN</b>, Central Philippine University 기관 저장소는 대학에서 생산 한 연구 및 과학 자원에 대한 접근을 제공하고 보존 할 목적으로 개발되었습니다. 웹 사이트에서 제공되는 자료는 기사, 논문, 논문, 보고서 및 관련 콘텐츠로 구성되며 Open Access 프레임 워크 내에서 사용됩니다.</p>
+        <p>대학은 지적 재산권 보유자와 디지털 텍스트 및 이미지 사용에 대한 합의에 도달하기 위해 모든 합리적인 노력을 기울이고 있습니다. 전문으로 제공되는 자료는 저작권 / 라이센스 계약이있는 자료입니다. 하나 이상의 권한있는 당사자 또는 상속인을 추적 할 수 없거나 게시자의 정책이 관리자에게 알려지지 않았기 때문에 표현 된 저작권 계약이 불가능한 논문 및 논문의 경우 저장소는 이에 따라 이러한 게시되지 않은 저작물의 서지 데이터와 초록 만 제공합니다. 대학 정책, 저작권법 및 관련 법령과 함께. 이러한 서지 데이터와 초록은 특정 과정의 전제 조건으로 미발표 연구의 인쇄본을 기탁하면 Henry Luce III Library Online Public Access Catalog를 통해 항상 공개적으로 제공되었습니다.</p>
+        <p>웹 사이트에 게시 된 텍스트 또는 디지털 개체에 대한 잠재적 인 권리를 행사하려는 개인이나 기관은 제목 및 관련 자료를 명시하여 리포지토리 팀에 연락해야합니다.</p>
+        <p>이 사이트는 교육 및 연구 목적으로 설계되었습니다. 사이트에 게시 및 참조를 위해 제출 된 자료에 대해서는 비용을 지불하지 않습니다. Central Philippine University는 사이트의 부적절한 사용 또는 사이트 사용으로 인한 권리 또는 청구에 대해 책임을지지 않습니다.</p>
+        <p>다음 주소로 이메일을 보내주십시오. <a href="mailto:bahandian@cpu.edu.ph">bahandian@cpu.edu.ph.</a></p>
+    </message>
+
+</catalogue>
