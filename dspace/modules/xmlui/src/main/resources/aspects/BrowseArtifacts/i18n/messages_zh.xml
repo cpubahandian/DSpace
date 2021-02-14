@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+
+    The contents of this file are subject to the license and copyright
+    detailed in the LICENSE and NOTICE files at the root of the source
+    tree and available online at
+
+    http://www.dspace.org/license/
+
+-->
+<catalogue xml:lang="zh" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://apache.org/cocoon/i18n/2.1">
+
+    <!-- Disclaimer Page -->
+    <message key="xmlui.Bahandian.DisclaimerPage.title">免责声明</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.trail">免责声明</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.head">免责声明</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.para">
+        <p><b>BAHÁNDÌAN</b>, 菲律宾中央大学机构资料库的开发旨在提供访问并保存该大学产生的研究和科学资源。 网站上提供的材料包括文章，论文，论文，报告和相关内容，并在开放访问框架内使用。</p>
+        <p>大学尽一切合理努力与知识产权持有人就使用数字文本和图像达成协议。 全文提供的材料是具有版权/许可协议的材料。 对于因无法追踪一个或多个权利方或继承人或管理者不了解出版者政策而无法达成明确的版权协议的论文和论文，资源库仅根据这些未出版作品提供书目数据和摘要 以及大学政策，版权法和相关法规。 这些书目数据和摘要始终通过亨利·卢斯三世图书馆在线公共访问目录向公众公开提供，这是某些课程的前提条件，是将未发表的研究成果的印刷本保存下来。</p>
+        <p>希望对网站上发布的文本或数字对象行使潜在权利的个人或机构，应联系存储库团队，并指定标题和相关材料。</p>
+        <p>该站点旨在用于教育和研究目的。 对于提交供发布和在网站上参考的材料，无需付款。 菲律宾中央大学对网站的不正确使用或使用该网站而产生的权利或要求不承担任何责任。</p>
+        <p>请发送电子邮件至 <a href="mailto:bahandian@cpu.edu.ph">bahandian@cpu.edu.ph.</a></p>
+    </message>
+
+
+</catalogue>
