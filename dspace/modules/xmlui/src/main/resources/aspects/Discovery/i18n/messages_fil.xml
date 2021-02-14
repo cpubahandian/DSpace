@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<!--
+
+    The contents of this file are subject to the license and copyright
+    detailed in the LICENSE and NOTICE files at the root of the source
+    tree and available online at
+
+    http://www.dspace.org/license/
+
+-->
+<catalogue xml:lang="fil" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://apache.org/cocoon/i18n/2.1">
+
+    <!--
+		The format used by all keys is as follows
+
+		xmlui.<Aspect>.<Java Class>.<name>
+
+		There are a few exceptions to this naming format,
+		1) Some general keys are in the xmlui.general namespace
+		   because they are used very frequently.
+		2) Some general keys which are specific to a particular aspect
+		   may be found at xmlui.<Aspect> without specifiying a
+		   particular java class.
+
+		Advanced Search related keys
+		Filter name:               xmlui.ArtifactBrowser.SimpleSearch.filter.author
+		Facet heading:             xmlui.ArtifactBrowser.AdvancedSearch.type_author
+		"Filter by" page heading:  xmlui.Discovery.AbstractSearch.type_author
+		
+		To overlay this file, copy it to [dspace-source]/dspace/modules/xmlui/src/main/resources/aspects/Discovery/i18n/messages.xml.
+		-->
+
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
+
+
+
+
+    <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
+    <!-- Note: As of DSpace 6.0, org.dspace.app.xmlui.aspect.artifactbrowser.AdvancedSearch has been removed.
+         The following i18n keys will be left as is as they're referenced by the Discovery SidebarFacetsTransformer
+         but in future, they should be refactored to a more relevant key prefix -->
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.contributor.author_filter">May Akda</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.subject_filter">Mga Paksa</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.type_filter">Uri ng Nilalaman</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.date.issued">Date Issued</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dateIssued">Date Issued</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type">Uri</message>
+    
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_has_content_in_original_bundle">May (mga) File</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_true">Oo</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.value_has_content_in_original_bundle_false">Hindi</message>
+
+
+    <!-- Site Level Recently Added Content -->
+    <message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Naidagdag kamakailan</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractRecentSubmissionTransformer.recent_submissions_more">Tingan ang higit pa</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.head">{0}: Recent submissions</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.trail">Recent submissions</message>
+    <message key="xmlui.Discovery.RecentSubmissions.RecentSubmissionTransformer.recent.head">Kamakailan lamang naidagdag</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type_filter">Kind</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_publisher_filter">Publisher</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.ispartof">Parent</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by">Group Results By</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.none">Wala</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.group_by.publication_grp">Paglathala</message>
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.comm">Komunidad</message>
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_location.coll">Koleksyon</message>
+
+
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_dc.relation.ispartofseries_filter">Serye</message>
+
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.contributor.author_browse">Pagba-browse ayon sa: May Akda</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.title_browse">Pagba-browse ayon sa: Pamagat</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.subject_browse">Pagba-browse ayon sa: Paksa</message>
+        
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dc.description.abstract_browse">Pagba-browse ayon sa: Abstract</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_series_browse">Pagba-browse ayon sa: Serye</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_sponsor_browse">Pagba-browse ayon sa: Sponsor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_identifier_browse">Pagba-browse ayon sa: Identifier</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_language_browse">Pagba-browse ayon sa: Language (ISO)</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_keyword_browse">Pagba-browse ayon sa: Keyword</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_taxon_browse">Pagba-browse ayon sa: Scientific Name</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_contributor_browse">Pagba-browse ayon sa: Contributor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_creator_browse">Pagba-browse ayon sa: Lumikha</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_subject_browse">Pagba-browse ayon sa: Paksa</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_description_browse">Pagba-browse ayon sa: Description</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_relation_browse">Pagba-browse ayon sa: Relation</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_mime_browse">Pagba-browse ayon sa: Mime-Type</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_other_browse">Pagba-browse ayon sa: Other Contributor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_advisor_browse">Pagba-browse ayon sa: Advisor</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_department_browse">Pagba-browse ayon sa: Department</message>
+    <message key="xmlui.ArtifactBrowser.AbstractSearch.type_dateissued_dt_browse">Pagba-browse ayon sa: Petsa ng isyu</message>
+
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.title">Pamagat</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued">Petsa ng isyu</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.has_content_in_original_bundle">May (mga) File</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.original_bundle_filenames">Filename</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.original_bundle_descriptions">File description</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.type">Uri</message>
+
+
+    <message key="xmlui.dri2xhtml.structural.pagination-info.nototal">Ipinapakita ngayon ang mga item {0} - {1}</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.type_author">Salain ayon sa: May-akda</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author">May-akda</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.author_filter">May-akda</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_subject">Salain ayon sa: Paksa</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject">Paksa</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.subject_filter">Paksa</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.dateIssued.year">Petsa ng isyu</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_type">Salain ayon sa: Uri</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_adviser">Salain ayon sa: Tagapayo</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_chair">Salain ayon sa: Pangulo ng Komite</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_member">Salain ayon sa: Miyembro ng Komite</message>
+
+
+    <message key="xmlui.Discovery.AbstractSearch.startswith">Nagsisimula sa</message>
+    <message key="xmlui.Discovery.AbstractSearch.startswith.help">O ipasok ang mga unang titik:</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.head">Mga Pagpipilian sa Pag-uri-uriin:</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.relevance">Relevance</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_desc">Pagsunud-sunurin ayon sa Pamagat ng Pababa</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_desc">Issue Date Desc</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.title_sort_asc">Pagsunud-sunurin ayon sa Pamagat ng Paakyat</message>
+    <message key="xmlui.Discovery.AbstractSearch.sort_by.dc.date.issued_dt_asc">Issue Date Asc</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.rpp">Results Per Page:</message>
+
+
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.add-filter">Add Filter</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.apply-filters">Apply</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.remove-filter">Remove</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.new-filters.head">New Filters:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.controls.current-filters.head">Current Filters:</message>
+    <message key="xmlui.Discovery.AbstractSearch.filters.display">Add filters</message>
+
+    <message key="xmlui.discovery.SearchFacetFilter.no-results">No filter values found</message>
+
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.head">Salain</message>
+    <message key="xmlui.discovery.AbstractFiltersTransformer.filters.view-more">... Tingnan ang Higit Pa</message>
+
+
+    <message key="xmlui.Discovery.SimpleSearch.search_scope">Hanapin</message>
+    <message key="xmlui.discovery.SimpleSearch.search_label">Hanapin</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_head">Mga Filter</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter_help">Gumamit ng mga filter upang pinuhin ang mga resulta sa paghahanap.</message>
+
+    <message key="xmlui.Discovery.SimpleSearch.filter.contains">Naglalaman</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.equals">Katumbas</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.authority">ID</message>
+	<message key="xmlui.Discovery.SimpleSearch.filter.notcontains">Hindi Naglalaman</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notequals">Hindi Katumbas</message>
+    <message key="xmlui.Discovery.SimpleSearch.filter.notauthority">Not ID</message>
+    
+    <message key="xmlui.Discovery.RelatedItems.head">Mga parehong item</message>
+    <message key="xmlui.Discovery.RelatedItems.help">Ipinapakita ang mga item na nauugnay sa pamagat, may-akda, tagalikha at paksa.</message>
+
+    <message key="xmlui.Discovery.AbstractSearch.head1_community">Showing {0} out of a total of {1} results for community: {2}. <span class="searchTime">({3} seconds)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_collection">Showing {0} out of a total of {1} results for collection: {2}. <span class="searchTime">({3} seconds)</span></message>
+   	<message key="xmlui.Discovery.AbstractSearch.head1_none">Showing {0} out of a total of {1} results. <span class="searchTime">({2} seconds)</span></message>
+
+    <message key="xmlui.Discovery.AbstractSearch.head2">Communities or Collections matching your query</message>
+   	<message key="xmlui.Discovery.AbstractSearch.head3">Mga item na tumutugma sa iyong query</message>
+
+   	<message key="xmlui.Discovery.SimpleSearch.did_you_mean">Ibig mong sabihin: </message>
+
+</catalogue>

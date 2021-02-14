@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+
+    The contents of this file are subject to the license and copyright
+    detailed in the LICENSE and NOTICE files at the root of the source
+    tree and available online at
+
+    http://www.dspace.org/license/
+
+-->
+<catalogue xml:lang="fil" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns="http://apache.org/cocoon/i18n/2.1">
+
+    <!-- Disclaimer Page -->
+    <message key="xmlui.Bahandian.DisclaimerPage.title">Pagwawaksi</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.trail">Pagwawaksi</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.head">Pagwawaksi</message>
+    <message key="xmlui.Bahandian.DisclaimerPage.para">
+        <p>Ang <b>BAHÁNDÌAN</b>, ang imbakan ng institusyon ng Central Philippine University, ay binuo na may layuning
+            magbigay ng access at mapanatili ang mga pagsasaliksik at mga mapagkukunang pang-agham na ginawa ng
+            Unibersidad. Ang mga materyal na magagamit sa website ay naglalaman ng mga artikulo, tesis, disertasyon,
+            ulat, at iba pang kaugnay na nilalaman na ginagamit sa loob ng isang balangkas ng Open Access.
+        </p>
+        <p>Ginagawa ng Unibersidad ang bawat makatuwirang paraan upang maabot ang kasunduan sa paggamit ng mga digital
+            na teksto at imahe alinsunod sa karapatang intelektwal ng may ari. Ang mga materyal na ibinigay na
+            buong teksto ay ang mga may kasunduan sa copyright. Para sa mga tesis at disertasyon kung saan ang isang
+            ipinahayag na kasunduan sa copyright ay hindi posible sapagkat ang isa o higit pang may karapatan na mga
+            partido o tagapagmana ay hindi masusundan o dahil ang patakaran ng publisher ay hindi alam ng mga
+            tagapangasiwa, ang repository ay nagbibigay lamang ng bibliographic data at mga abstract ng mga hindi
+            nai-publish na gawa alinsunod sa mga patakaran sa unibersidad, Batas sa copyright at mga kaugnay na batas.
+            Noon pa man, ang mga bibliographic data at abstract na ito ay palaging bukas sa publiko sa pamamagitan ng
+            Henry Luce III Library Online Public Access Catalog kung saan ipinapasa ang isang kopya ng pananaliksik
+            bilang isang paunang kinakailangan para sa ilang mga kurso.
+        </p>
+        <p>Ang mga tao o institusyong nagnanais na gamitin ang mga teksto o digital na bagay na nai-publish sa website
+            ay dapat makipag-ugnayan sa Repository Team, na tumutukoy sa pamagat at kaugnay na materyal.
+        </p>
+        <p>Ang site na ito ay dinisenyo para sa mga hangaring pang-edukasyon at pagsasaliksik. Walang bayad na ginawa
+            para sa materyal na isinumite para sa paglalathala nito. Hindi mananagot ang Central Philippine University
+            para sa hindi wastong paggamit ng site, o para sa mga karapatan, o pag-angkin na nagmula sa paggamit ng
+            site.
+        </p>
+        <p>Mangyaring magpadala ng isang email sa
+            <a href="mailto:bahandian@cpu.edu.ph">bahandian@cpu.edu.ph.</a>
+        </p>
+    </message>
+
+
+</catalogue>
