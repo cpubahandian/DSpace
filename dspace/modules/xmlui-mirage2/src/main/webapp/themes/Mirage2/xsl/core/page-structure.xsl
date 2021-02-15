@@ -302,6 +302,78 @@
             <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='xhtml_head_item']">
                 <xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='xhtml_head_item']"
                               disable-output-escaping="yes"/>
+                <!-- Add Open Graph tags for appearance on social media -->
+                <meta property="og:type">
+                    <xsl:attribute name="content">
+                        <xsl:value-of select="$type"/>
+                    </xsl:attribute>
+                </meta>
+                <xsl:choose>
+                    <xsl:when test="$isbn">
+                        <meta property="book:isbn">
+                            <xsl:attribute name="content">
+                                <xsl:value-of select="$isbn"/>
+                            </xsl:attribute>
+                        </meta>
+                    </xsl:when>
+                </xsl:choose>
+                <meta property="og:site_name" content="BAHÁNDÌAN, Institutional Repository of Central Philippine University"/>
+                <xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element = 'title']">
+                    <meta property="og:title" content="{.}"/>
+                </xsl:for-each>
+                <xsl:choose>
+                    <xsl:when test="$type = 'book'">
+                        <xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element = 'citation_author']">
+                            <meta property="book:author" content="{.}"/>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element = 'citation_author']">
+                            <meta property="article:author" content="{.}"/>
+                        </xsl:for-each>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <meta property="og:url">
+                    <xsl:attribute name="content">
+                        <xsl:value-of select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element = 'citation_abstract_html_url']"/>
+                    </xsl:attribute>
+                </meta>
+                <meta property="og:url">
+                    <xsl:attribute name="content">
+                        <xsl:value-of select="$handle-uri"/>
+                    </xsl:attribute>
+                </meta>
+                <meta property="og:image">
+                    <xsl:attribute name="content">
+                        <xsl:value-of select="$itemThumbnail"/>
+                    </xsl:attribute>
+                </meta>
+                <meta property="twitter:image">
+                    <xsl:attribute name="content">
+                        <xsl:value-of select="$itemThumbnail"/>
+                    </xsl:attribute>
+                </meta>
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:creator" content="@bertha_cpu" />
+                <meta property="og:image" content="https://repository.cpu.edu.ph/themes/Mirage2/images/bahandian-logo-inline.svg"/>
+                <meta property="og:description">
+                    <xsl:attribute name="content">
+                        <xsl:choose>
+                            <xsl:when test="$abstract">
+                                <xsl:value-of select="$abstract"/>
+                            </xsl:when>
+                            <xsl:when test="$description">
+                                <xsl:value-of select="$description"/>
+                            </xsl:when>
+                            <xsl:when test="$citation">
+                                <xsl:value-of select="$citation"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>BAHÁNDÌAN is the institutional repository of the Central Philippine University for the management, dissemination, and preservation of digital materials that represent the scholarly work of the academic community and its affiliates and their faculty members and students.</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                </meta>
             </xsl:if>
 
             <!-- Add all Google Scholar Metadata values -->

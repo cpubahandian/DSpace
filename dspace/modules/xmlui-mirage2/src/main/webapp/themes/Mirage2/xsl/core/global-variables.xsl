@@ -91,6 +91,41 @@
         <xsl:text>cocoon://metadata/</xsl:text>
         <xsl:value-of select="$request-uri"/>
         <xsl:text>/mets.xml</xsl:text>
-    </xsl:variable>	
+    </xsl:variable>
+
+    <xsl:variable name="handle-uri">
+        <xsl:value-of select="document($otherItemMetadataURL)//dim:field[@element='identifier' and @qualifier='uri']/text()"/>
+    </xsl:variable>
+    <xsl:variable name="itemThumbnail">
+        <xsl:value-of select="confman:getProperty('dspace.url')"/>
+        <xsl:value-of
+                select="substring-before(document($otherItemMetadataURL)//mets:fileSec/mets:fileGrp[@USE='THUMBNAIL']/mets:file/mets:FLocat[@LOCTYPE='URL']/@xlink:href,'?sequence=')"/>
+    </xsl:variable>
+    <xsl:variable name="abstract">
+        <xsl:value-of select="document($otherItemMetadataURL)//dim:field[@element='description' and @qualifier='abstract']/text()"/>
+    </xsl:variable>
+    <xsl:variable name="description">
+        <xsl:value-of select="document($otherItemMetadataURL)//dim:field[@element='description' and not(@qualifier)]/text()"/>
+    </xsl:variable>
+    <xsl:variable name="citation">
+        <xsl:value-of select="document($otherItemMetadataURL)//dim:field[@element='identifier' and @qualifier='citation']/text()"/>
+    </xsl:variable>
+    <xsl:variable name="type">
+        <xsl:choose>
+            <xsl:when
+                    test="document($otherItemMetadataURL)//dim:field[@element='type' and not(@qualifier)]/text()='Book' or
+                     document($otherItemMetadataURL)//dim:field[@element='type' and not(@qualifier)]/text()='Thesis' or
+                     document($otherItemMetadataURL)//dim:field[@element='type' and not(@qualifier)]/text()='Special paper' or
+                     document($otherItemMetadataURL)//dim:field[@element='type' and not(@qualifier)]/text()='Dissertation'">
+                <xsl:text>book</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>article</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="isbn">
+        <xsl:value-of select="document($otherItemMetadataURL)//dim:field[@element='identifier' and @qualifier='isbn']/text()"/>
+    </xsl:variable>
 
 </xsl:stylesheet>
