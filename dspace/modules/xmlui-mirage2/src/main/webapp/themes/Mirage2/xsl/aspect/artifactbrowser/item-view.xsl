@@ -154,6 +154,7 @@
                             <xsl:call-template name="itemSummaryView-DIM-citation"/>
                         </xsl:when>
                     </xsl:choose>
+                    <xsl:call-template name="itemSummaryView-DIM-DOI"/>
                     <div class="row">
                         <xsl:call-template name="itemSummaryView-DIM-type"/>
                         <xsl:call-template name="itemSummaryView-DIM-ISSN"/>
@@ -513,6 +514,28 @@
                             <xsl:copy-of select="./node()"/>
                         </a>
                         <xsl:if test="count(following-sibling::dim:field[@element='identifier' and @qualifier='uri']) != 0">
+                            <xsl:text>; </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                </span>
+            </div>
+        </xsl:if>
+    </xsl:template>
+
+    <xsl:template name="itemSummaryView-DIM-DOI">
+        <xsl:if test="dim:field[@element='identifier' and @qualifier='doi' and descendant::text()]">
+            <div class="simple-item-view-uri item-page-field-wrapper table">
+                <h5><i18n:text>xmlui.dri2xhtml.METS-1.0.item-doi</i18n:text></h5>
+                <span>
+                    <xsl:for-each select="dim:field[@element='identifier' and @qualifier='doi']">
+                        <a>
+                            <xsl:attribute name="href">
+                                <xsl:text>http://dx.doi.org/</xsl:text>
+                                <xsl:copy-of select="./node()"/>
+                            </xsl:attribute>
+                            <xsl:copy-of select="./node()"/>
+                        </a>
+                        <xsl:if test="count(following-sibling::dim:field[@element='identifier' and @qualifier='doi']) != 0">
                             <br/>
                         </xsl:if>
                     </xsl:for-each>
