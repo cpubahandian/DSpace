@@ -160,18 +160,42 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-qualifier>journaltitle</dc-qualifier>
          <repeatable>false</repeatable>
          <label>Journal Title</label>
-         <type-bind>Article</type-bind>
+         <type-bind>Article,magazineArticle</type-bind>
          <input-type>onebox</input-type>
          <hint> Enter the name of the journal for this item. </hint>
          <required>You must enter the Journal title of this article.</required>
        </field>
+
+         <field>
+             <dc-schema>dc</dc-schema>
+             <dc-element>citation</dc-element>
+             <dc-qualifier>booktitle</dc-qualifier>
+             <repeatable>false</repeatable>
+             <label>Book Title</label>
+             <type-bind>Book chapter</type-bind>
+             <input-type>onebox</input-type>
+             <hint> Enter the title of the Book for which this item is part of. </hint>
+             <required>You must enter the Book title of this chapter to proceed.</required>
+         </field>
+
+         <field>
+             <dc-schema>dc</dc-schema>
+             <dc-element>citation</dc-element>
+             <dc-qualifier>conferencetitle</dc-qualifier>
+             <repeatable>false</repeatable>
+             <label>Proceedings Title</label>
+             <type-bind>Conference paper</type-bind>
+             <input-type>textarea</input-type>
+             <hint> Enter the Proceedngs title for which this item is part of. </hint>
+             <required>You must enter the Proceedings title of this paper to proceed.</required>
+         </field>
 
        <field>
          <dc-schema>dc</dc-schema>
          <dc-element>citation</dc-element>
          <dc-qualifier>volume</dc-qualifier>
          <label>Volume</label>
-         <type-bind>Article</type-bind>
+         <type-bind>Article,magazineArticle</type-bind>
          <input-type>onebox</input-type>
          <hint> Enter the volume number. </hint>
        </field>
@@ -181,10 +205,20 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>citation</dc-element>
          <dc-qualifier>issue</dc-qualifier>
          <label>Issue</label>
-         <type-bind>Article</type-bind>
+         <type-bind>Article,magazineArticle</type-bind>
          <input-type>onebox</input-type>
          <hint> Enter the issue number. </hint>
        </field>
+
+         <field>
+             <dc-schema>dc</dc-schema>
+             <dc-element>relation</dc-element>
+             <dc-qualifier>uri</dc-qualifier>
+             <repeatable>false</repeatable>
+             <label>Related link</label>
+             <input-type>onebox</input-type>
+             <hint> Enter the url of the full text (if available and open access) from the publisher or external sites. </hint>
+         </field>
 
        <field>
          <dc-schema>dc</dc-schema>
