@@ -87,5 +87,10 @@
         </xsl:if>
     </xsl:variable>
 
+    <xsl:variable name="otherItemMetadataURL">
+        <xsl:text>cocoon://metadata/</xsl:text>
+        <xsl:value-of select="$request-uri"/>
+        <xsl:text>/mets.xml</xsl:text>
+    </xsl:variable>	
 
 </xsl:stylesheet>
