@@ -1,6 +1,6 @@
 $(function () {
     $('h4 > a').each(function (i) {
-        if ($(this).attr("href") == "/handle/20.500.12852/1") {
+        if ($(this).attr("href") == "/handle/20.500.12852/1" || $(this).attr("href") == "/handle/20.500.12852/445") {
             $(this).parent().parent().parent().addClass('open');
         }
     });
