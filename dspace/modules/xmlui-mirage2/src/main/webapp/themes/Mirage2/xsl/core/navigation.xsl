@@ -136,6 +136,7 @@
                 </div>
 
             </xsl:if>
+            <xsl:call-template name="facebook"/>
         </div>
     </xsl:template>
 
@@ -260,6 +261,16 @@
                     <xsl:text>News &amp; Updates</xsl:text>
                 </a>
             </div>
+        </div>
+    </xsl:template>
+
+    <xsl:template name="facebook">
+        <div class="fb-page" data-href="https://www.facebook.com/cpulibrary/" data-tabs="timeline" data-width=""
+             data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+             data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/cpulibrary/" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/cpulibrary/">CPU Henry Luce III Library</a>
+            </blockquote>
         </div>
     </xsl:template>
 
