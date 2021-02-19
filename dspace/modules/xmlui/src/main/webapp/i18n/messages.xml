@@ -2571,5 +2571,13 @@
 		<p>This repository is managed by the <a href="https://library.cpu.edu.ph/">Henry Luce III Library</a> of the University.</p>
 	</message>
 
+	<message key="bahandian.video.overview">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7R3x7mwLUVU"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true">
+				&#160;</iframe>
+		</div>
+	</message>
+
 
 </catalogue>

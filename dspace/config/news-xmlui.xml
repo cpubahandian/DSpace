@@ -4,6 +4,7 @@
 <div id="file.news.div.news" n="news" rend="primary">
 <head><i18n:text>bahandian.news.title</i18n:text></head>
     <i18n:text>bahandian.news.content</i18n:text>
+    <i18n:text>bahandian.video.overview</i18n:text>
 </div>
 </body>
 <options/>
