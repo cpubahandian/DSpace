@@ -430,7 +430,29 @@
             <xsl:if test="@authority">
                 <xsl:attribute name="class"><xsl:text>ds-dc_contributor_author-authority</xsl:text></xsl:attribute>
             </xsl:if>
+            <a>
+                <xsl:attribute name="href">
+                    <xsl:choose>
+                        <xsl:when test="@qualifier='author'">
+                            <xsl:text>/discover?filtertype=author&amp;filter_relational_operator=equals&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;filter=</xsl:text>
             <xsl:copy-of select="node()"/>
+                        </xsl:when>
+                        <xsl:when test="@qualifier='chair'">
+                            <xsl:text>/discover?filtertype=chair&amp;filter_relational_operator=equals&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;filter=</xsl:text>
+                            <xsl:copy-of select="node()"/>
+                        </xsl:when>
+                        <xsl:when test="@qualifier='committeemember'">
+                            <xsl:text>/discover?filtertype=member&amp;filter_relational_operator=equals&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;filter=</xsl:text>
+                            <xsl:copy-of select="node()"/>
+                        </xsl:when>
+                        <xsl:when test="@qualifier='adviser'">
+                            <xsl:text>/discover?filtertype=adviser&amp;filter_relational_operator=equals&amp;sort_by=dc.date.issued_dt&amp;order=desc&amp;filter=</xsl:text>
+                            <xsl:copy-of select="node()"/>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:attribute>
+            <xsl:copy-of select="node()"/>
+            </a>
             <xsl:if test="@orcid_id">
                 <xsl:text> </xsl:text>
                 <a href="https://orcid.org/{@orcid_id}" target="_blank"><img src="{$theme-path}/images/ORCIDiD.svg" alt="ORCID" /></a>
