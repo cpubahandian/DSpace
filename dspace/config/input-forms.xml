@@ -351,7 +351,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>description</dc-element>
          <dc-qualifier>bibliographicalreferences</dc-qualifier>
          <label>Bibliographical references</label>
-         <type-bind>Book,Thesis,Dissertation,Special paper</type-bind>
+         <type-bind>Book,Thesis,Dissertation,Special paper,Technical Report</type-bind>
          <input-type>onebox</input-type>
          <hint>Example: Includes bibliographical references (83-85)</hint>
        </field>
@@ -361,7 +361,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>format</dc-element>
          <dc-qualifier>extent</dc-qualifier>
          <label>Physical description</label>
-         <type-bind>Book,Thesis,Dissertation,Special paper</type-bind>
+         <type-bind>Book,Thesis,Dissertation,Special paper,Technical Report</type-bind>
          <input-type>onebox</input-type>
          <hint>Enter the physical details (eg. ii, 96 p. : ill. (col.).</hint>
        </field>
@@ -431,7 +431,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>ddc</dc-qualifier>
          <label>DDC Classification No.</label>
-         <type-bind>Book,Thesis,Dissertation,Special paper</type-bind>
+         <type-bind>Book,Thesis,Dissertation,Special paper,Technical Report</type-bind>
          <input-type>onebox</input-type>
          <hint>Example: GSL Theses 361.30072 D566</hint>
        </field>
@@ -441,7 +441,7 @@ it, please enter the types and the actual numbers or codes.</hint>
          <dc-element>subject</dc-element>
          <dc-qualifier>lcc</dc-qualifier>
          <label>LC Classification No.</label>
-         <type-bind>Book,Thesis,Dissertation,Special paper</type-bind>
+         <type-bind>Book,Thesis,Dissertation,Special paper,Technical Report</type-bind>
          <input-type>onebox</input-type>
          <hint>Enter the LC Classification No. for this item (If applicable)</hint>
        </field>
